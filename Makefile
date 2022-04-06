@@ -1,4 +1,4 @@
-CXX      := -gcc
+CXX      := -g++
 CXXFLAGS := -Wall -Wextra -Werror
 LDFLAGS  := -lstdc++ -lm
 BUILD    := ./build
