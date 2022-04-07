@@ -30,7 +30,7 @@ main ()
 	}
 
       else if (c < n && j.grade[l][(c + 1)] > j.grade[(l + 1)][(c)]
-	       && j.grade[(c + 1)][c] >= j.grade[l][(c - 1)])
+	       && j.grade[l][c + 1] >= j.grade[l][(c - 1)])
 	{
 	  j.setGrade (l, c);
 	  c++;
