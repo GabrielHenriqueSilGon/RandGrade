@@ -48,9 +48,9 @@ CaminhoMatriz::mostra (int n)
       for (int j = 0; j < n; j++)
 	{
 	  if (grade[i][j] == -1)
-	    cout << "x | ";
+	    cout << "x | \t";
 	  else
-	    cout << grade[i][j] << " | ";
+	    cout << grade[i][j] << " | \t";
 	}
       cout << endl << "-----------------------------------------------" <<
 	endl;
